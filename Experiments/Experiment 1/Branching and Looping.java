@@ -20,3 +20,9 @@ public class Condition
         }
     }
 }
+/*
+Enter 2 numbers:
+45
+46
+The largest is 46
+*/
