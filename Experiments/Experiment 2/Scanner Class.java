@@ -13,3 +13,11 @@ public class UserInput
         System.out.println("Your Age:"+ age);
     }
 }
+/*
+Enter Your Name:
+JAVA
+Enter Your Age:
+4 50
+Your Name:JAVA
+Your Age:50
+*/
