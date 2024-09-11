@@ -1,7 +1,7 @@
 
 ---
 
-** # Java Programs **
+# Java Programs
 
 Welcome to my **Java Codes** repository! This repository contains Java programs that I have practiced while learning and exploring various concepts of Java. The purpose is to document my journey as an engineering student, specifically in **Artificial Intelligence & Data Science**.
 
