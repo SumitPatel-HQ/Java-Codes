@@ -15,6 +15,6 @@ System.out.println("\n\n\tThe square root of " + number + " is: " + squareRoot);
 
 }
 /*
-# Output : 
+Output : 
 The square root of 144.0 is: 12.0
 */
