@@ -1,0 +1,27 @@
+class Tester {
+    
+    public static String moveSpecialCharacters(String str) {
+        StringBuilder letters = new StringBuilder();
+        StringBuilder specialCharacters = new StringBuilder();
+        
+        // Iterate through each character in the string
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            
+            // Check if the character is a letter (either lowercase or uppercase)
+            if (Character.isLetterOrDigit(ch)) {
+                letters.append(ch);
+            } else {
+                specialCharacters.append(ch);
+            }
+        }
+        
+        // Combine letters and special characters
+        return letters.toString() + specialCharacters.toString();
+    }
+    
+    public static void main(String args[]) {
+        String str = "He@#$llo!*&";
+        System.out.println(moveSpecialCharacters(str));
+    }
+}
